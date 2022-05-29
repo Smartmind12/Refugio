@@ -1,0 +1,27 @@
+Using build environment variables:
+  BASH_ENV=/tmp/.bash_env-62936fd4f492173f4b1f3200-0-build
+  CI=true
+  CIRCLECI=true
+  CIRCLE_BRANCH=circleci-project-setup
+  CIRCLE_BUILD_NUM=1
+  CIRCLE_BUILD_URL=https://circleci.com/gh/Smartmind12/Refugio/1
+  CIRCLE_COMPARE_URL=
+  CIRCLE_JOB=say-hello
+  CIRCLE_NODE_INDEX=0
+  CIRCLE_NODE_TOTAL=1
+  CIRCLE_PREVIOUS_BUILD_NUM=
+  CIRCLE_PROJECT_REPONAME=Refugio
+  CIRCLE_PROJECT_USERNAME=Smartmind12
+  CIRCLE_REPOSITORY_URL=git@github.com:Smartmind12/Refugio.git
+  CIRCLE_SHA1=2627c082ab123b8f4b023ed6c8fe3cb7c2c3ac40
+  CIRCLE_SHELL_ENV=/tmp/.bash_env-62936fd4f492173f4b1f3200-0-build
+  CIRCLE_STAGE=say-hello
+  CIRCLE_USERNAME=Smartmind12
+  CIRCLE_WORKFLOW_ID=eae2b17f-3da8-4f50-9416-88e831c1cb41
+  CIRCLE_WORKFLOW_JOB_ID=7b412391-feea-4c77-b4b2-dd147f590064
+  CIRCLE_WORKFLOW_UPSTREAM_JOB_IDS=
+  CIRCLE_WORKFLOW_WORKSPACE_ID=eae2b17f-3da8-4f50-9416-88e831c1cb41
+  CIRCLE_WORKING_DIRECTORY=~/project
+
+
+The redacted variables listed above will be masked in run step output.
