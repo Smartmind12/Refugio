@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Refugio</title>
+</head>
+
+<body>
+    <!-- Navbar section -->
+    <nav>
+        <li><strong>Refugio</strong></li>
+        <a href="index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="career.html">Career</a>
+        <a href="social.html">Social</a>
+        <a href="account.html">Account</a>
+    </nav>
+
+    <h2 style="text-align: center; font-size: 2rem; margin-top: 10vh; ">Create Account</h2>
+    <form action="backend.php" method="post">
+        <div class="sub-sect">
+            <label for="fname">Full Name : </label>
+            <input type="text" name="fname" id="fname">
+        </div>
+        <div class="sub-sect">
+            <label for="email">Email : </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="sub-sect">
+            <label for="origin">Origin : </label>
+            <input type="text" name="origin" id="origin">
+        </div>
+        <div class="sub-sect">
+            <label for="cloc">Current Location : </label>
+            <input type="text" name="cloc" id="cloc">
+        </div>
+        <button type="submit">Create</button>
+    </form>
+
+    <footer>
+        <p>©2022 Refugio. All rights reserved</p>
+    </footer>
+</body>
+
+</html>

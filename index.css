@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 7vh;
+    margin: 0px;
+    font-size: 1.7rem;
+}
+
+nav>li>strong {
+    padding-right: 45vw;
+}
+
+nav>li {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 3vw;
+}
+
+nav>a {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 3vw;
+    color: whitesmoke;
+}
+
+.sect {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.big {
+    width: 60vw;
+}
+
+.big>p {
+    width: 55vw;
+}
+
+.small {
+    width: 30vw;
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 15px;
+    height: 5vh;
+    font-size: 1.2rem;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.black {
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer {
+    display: flex;
+    height: 5vh;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-sect {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partition {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card {
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.942);
+    color: whitesmoke;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    /* margin-left: 10vw; */
+    /* margin-right: 10vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 16vw;
+}
+
+.card>h2 {
+    text-shadow: 2px 2px 2px rgb(51, 202, 37);
+    padding-top: 2vh;
+}
+
+.card>a {
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.3rem;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 0px;
+    display: block;
+    background-color: aliceblue;
+    color: black;
+    padding-top: 2vh;
+}
+
+.card>a:hover {
+    background-color: rgb(51, 202, 37);
+    color: whitesmoke;
+}
+
+.card-cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+form {
+    background-color: black;
+    color: white;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form>.sub-sect>input {
+    border-radius: 15px;
+    width: 20vw;
+    height: 3vh;
+}
+
+form>.sub-sect {
+    font-size: 1.2rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.sub-sect>label {
+    display: inline-block;
+    width: 20vw;
+}
+
+form>button {
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2vh;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 10px;
+    display: block;
+    background-color: aliceblue;
+    color: black;
+}
+
+form>button:hover {
+    background-color: rgb(51, 202, 37);
+    color: whitesmoke;
+}
