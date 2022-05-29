@@ -1,0 +1,24 @@
+Build-agent version 1.0.125997-92de556b (2022-05-27T18:08:18+0000)
+System information:
+ Server Version: 20.10.16
+ Storage Driver: overlay2
+  Backing Filesystem: xfs
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 1
+ Kernel Version: 5.13.0-1023-aws
+ Operating System: Ubuntu 20.04.4 LTS
+ OSType: linux
+ Architecture: x86_64
+
+Starting container cimg/base:stable
+cimg/base:stable:
+  using image cimg/base@sha256:087e0c2f4f3702c9080b726e240ec4e649eb3242cc2b453c8a49476a40bc50d1
+  pull stats: Image was already available so the image was not pulled
+  time to create container: 302ms
+Warning: No authentication provided, using CircleCI credentials for pulls from Docker Hub.
+  image is cached as cimg/base:stable, but refreshing...
+stable: Pulling from cimg/base
+Digest: sha256:087e0c2f4f3702c9080b726e240ec4e649eb3242cc2b453c8a49476a40bc50d1
+Status: Image is up to date for cimg/base:stable
+Time to upload agent and config: 489.451107ms
+Time to start containers: 421.840753ms
